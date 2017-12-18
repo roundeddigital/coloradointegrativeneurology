@@ -113,3 +113,27 @@ MODAL: QUESTION/COMMENT
   background-color: #5cb85c;
   color: white;
 }
+
+.wpcf7 input.wpcf7-text {
+  width: 100%;
+}
+
+.wpcf7 textarea.wpcf7-textarea { width: 100%; }
+.wpcf7-form textarea { height: 200px; }
+
+/* ------------------------------------------------------------------- RND: MOBILE */
+
+/* ALL Mobile, everything less than an ipad vertical*/
+@media only screen and (max-width: 767px) {
+
+  /* ------------------------------------------------------------------- RND: Modal Mobile*/
+  .modal-content {
+    padding: 20px;
+    height: 100%;
+    width: 100%;
+  }
+  .modal {
+    padding-top: unset;
+  }
+
+}
